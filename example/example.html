@@ -2,8 +2,8 @@
 <html ng-app="myApp">
 <head>
     <title></title>
-    <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
-    <script type="text/javascript" src="../bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-resource/angular-resource.js"></script>
     <script type="text/javascript" src="../src/angular-dg-api.js"></script>
     <script type="text/javascript" src="example.js"></script>
 </head>
@@ -19,5 +19,24 @@
     <li ng-repeat="rubric in rubrics.result">{{ rubric.name }}</li>
 </ul>
 
+<h1>Search for 'starbucks' in 'Москва'</h1>
+<ul>
+    <li ng-repeat="result in searchResult.result">{{ result.name }}, {{  result.address }}</li>
+</ul>
+
+<h1>Search for firms in rubric 'хостинг' in 'Москва'</h1>
+<ul>
+    <li ng-repeat="result in searchInRubricResult.result">{{ result.name }}, {{  result.address }}</li>
+</ul>
+
+<h1>Search ads for 'окна'  in 'Москва'</h1>
+<ul>
+    <li ng-repeat="result in searchAdsResult.result">{{ result.name }}</li>
+</ul>
+
+<h1>Get profile</h1>
+<p>Name: {{ profile.name }}</p>
+<p>Address: {{ profile.address }}</p>
+<button ng-click="profile.registerBC()">Register BC</button>
 </body>
 </html>
