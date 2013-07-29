@@ -1,0 +1,30 @@
+{
+    "name": "angular-dg-api",
+    "version": "0.0.0",
+    "description": "2GIS API component for Angular.js",
+    "main": "index.js",
+    "directories": {
+        "example": "example"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/burivuhster/angular-dg-api.git"
+    },
+    "keywords": [
+        "2gis",
+        "dg",
+        "api",
+        "angular",
+        "angularjs",
+        "js"
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.6.1",
+        "grunt-contrib-uglify": "~0.2.2"
+    },
+    "author": "Eugene Molodkin <burivuh@gmail.com>",
+    "license": "MIT",
+    "gitHead": "f85689111daaa6b15bc121db2ff6f18d015dcdb6",
+    "readmeFilename": "README.md"
+}
