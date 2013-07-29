@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+    <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="../src/angular-dg-api.js"></script>
+    <script type="text/javascript" src="example.js"></script>
+</head>
+<body ng-controller="ExampleCtrl">
+
+<h1>Project list</h1>
+<ul>
+    <li ng-repeat="project in projects.result">{{ project.name }}</li>
+</ul>
+
+<h1>Rubricator</h1>
+<ul>
+    <li ng-repeat="rubric in rubrics.result">{{ rubric.name }}</li>
+</ul>
+
+</body>
+</html>
