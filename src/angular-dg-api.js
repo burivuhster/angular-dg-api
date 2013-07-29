@@ -91,6 +91,10 @@
                     query: {method: 'JSONP', isArray: false}
                 }),
 
+                /**
+                 * Profile resource
+                 * @link {http://api.2gis.ru/doc/firms/profiles/profile/}
+                 */
                 Profile: Profile
             };
         };
