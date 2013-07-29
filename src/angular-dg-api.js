@@ -98,7 +98,7 @@
         this.$get.$inject = ['$resource'];
     }
 
-    dgApiModule.config(function($provide) {
+    dgApiModule.config(['$provide', function($provide) {
         $provide.provider('dgApi', DgApiProvider);
-    });
+    }]);
 })();
