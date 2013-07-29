@@ -6,8 +6,11 @@
         });
     })
     .controller('ExampleCtrl', function($scope, dgApi) {
+
         $scope.projects = dgApi.Projects.query();
+
         $scope.rubrics = dgApi.Rubricator.query({
             where: 'Москва'
         });
+
     });
