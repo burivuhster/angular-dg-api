@@ -1,4 +1,4 @@
-Angular 2GIS API
+[Angular 2GIS API](http://burivuhster.github.io/angular-dg-api)
 ==============
 
 Angular-dg-api is an angular provider with the set of resources that enables seamless integration of 2GIS API into your AngularJS app.
